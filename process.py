@@ -70,5 +70,3 @@ def type_decode(df):
 
 type_decode(submission)
 submission.to_csv("xgbc_result.csv", index=False)
-
-f = open("result.csv")
